@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 2;
+}
+
+header.escuro {
+  background-color: #093B5E;
+  padding: 1rem 3rem;
+}
+
+header.escuro img {
+  max-height: 60px;
+}
+
+header.claro {
+  background-color: #1A5C8A;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 3rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+nav a:hover,
+nav a.ativo {
+  color: #5ab5c5;
+}
+
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 80px 3rem;
+  gap: 50px;
+}
+
+.texto {
+  flex: 1;
+}
+
+.texto h1 {
+  color: #5ab5c5;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.texto p {
+  font-size: 1.5rem;
+  color: #06314E;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.imagem {
+  flex: 1;
+  text-align: center;
+}
+
+.insta img{
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.imagem img {
+  max-width: 450px;
+  max-height: 500px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.nome {
+  font-size: 1.5rem;
+  color: #06314E;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.frase {
+  font-size: 1.2rem;
+  color: #06314E;
+  font-style: italic;
+  margin-top: 0.3rem;
+}

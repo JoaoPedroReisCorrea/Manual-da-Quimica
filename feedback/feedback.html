@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual da Química - Perguntas Frequentes</title>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+  <header class="escuro">
+    <div class="logo">
+      <a href="../index.html"><img src="../imagens/Logo Manual-white.png" alt="Logo"></a>
+    </div>
+  </header>
+
+  <header class="claro">
+    <nav class="links">
+      <a href="../Conteudos Dalton/CD.html">Conteúdos</a>
+      <a href="../Atomic time/">Jogo</a>
+      <a href="../Sobre nós/Sobre.html">Sobre nós</a>
+      <a href="./feedback.html" id="abrirFeedbackNav" class="ativo">Feedback</a>
+    </nav>
+  </header>
+
+  <section class="faq-section">
+    <h2>Perguntas Frequentes sobre o Site</h2>
+
+    <div class="faq-item">
+      <div class="faq-pergunta">
+        <span>Como navego pelos conteúdos de cada cientista?</span>
+        <span class="seta">&#9662;</span>
+      </div>
+      <div class="faq-resposta">
+        <p>Basta clicar no menu "Conteúdos" e escolher o cientista desejado. Cada página contém mapas mentais e vídeos.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-pergunta">
+        <span>Posso acessar o jogo sem cadastro?</span>
+        <span class="seta">&#9662;</span>
+      </div>
+      <div class="faq-resposta">
+        <p>Sim, o jogo é acessível diretamente pelo menu "Jogo", sem necessidade de cadastro.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-pergunta">
+        <span>Os vídeos e mapas mentais estão disponíveis para download?</span>
+        <span class="seta">&#9662;</span>
+      </div>
+      <div class="faq-resposta">
+        <p>Atualmente, os materiais podem ser visualizados online. O download não está habilitado.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-pergunta">
+        <span>Como posso sugerir melhorias no site?</span>
+        <span class="seta">&#9662;</span>
+      </div>
+      <div class="faq-resposta">
+        <p>Use o popup de feedback clicando no botão "Feedback" no menu ou no canto inferior da tela.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-pergunta">
+        <span>O site funciona bem em celulares e tablets?</span>
+        <span class="seta">&#9662;</span>
+      </div>
+      <div class="faq-resposta">
+        <p>Sim! O site foi desenvolvido com design responsivo para todos os dispositivos.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <button id="abrirFeedback" class="btn-aberto">Dar Feedback</button>
+
+  <div id="popupFeedback" class="popup">
+    <div class="popup-conteudo">
+      <span class="fechar" id="fecharFeedback">&times;</span>
+      <h2>Envie seu Feedback</h2>
+      <textarea id="mensagem" placeholder="Escreva seu feedback aqui..."></textarea>
+      <button id="enviarFeedback" class="btn-enviar">Enviar</button>
+    </div>
+  </div>
+
+  <div id="popupObrigado" class="popup">
+    <div class="popup-conteudo">
+      <span class="fechar" id="fecharObrigado">&times;</span>
+      <h2>Obrigado pelo seu feedback!</h2>
+      <p>Seu feedback nos ajuda a melhorar continuamente.</p>
+      <button id="fecharObrigadoBtn" class="btn-enviar">Fechar</button>
+    </div>
+  </div>
+
+  <script src="feedback.js"></script>
+</body>
+</html>
