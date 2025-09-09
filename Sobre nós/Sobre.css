@@ -38,7 +38,6 @@ nav a.ativo {
   color: #5ab5c5;
 }
 
-
 .section {
   display: flex;
   justify-content: center;
@@ -68,11 +67,6 @@ nav a.ativo {
   text-align: center;
 }
 
-.insta img{
-  max-width: 40px;
-  max-height: 40px;
-}
-
 .imagem img {
   max-width: 450px;
   max-height: 500px;
@@ -87,9 +81,37 @@ nav a.ativo {
   margin-top: 0.5rem;
 }
 
+.cargo {
+  font-size: 1.2rem;
+  color: #06314E;
+  margin-top: 0.2rem;
+}
+
 .frase {
   font-size: 1.2rem;
   color: #06314E;
   font-style: italic;
   margin-top: 0.3rem;
+}
+
+.social {
+  margin-top: 1rem;
+}
+
+.social a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #06314E;
+  font-weight: bold;
+  gap: 0.5rem;
+}
+
+.social a:hover {
+  color: #5ab5c5;
+}
+
+.insta img {
+  width: 30px;
+  height: 30px;
 }
